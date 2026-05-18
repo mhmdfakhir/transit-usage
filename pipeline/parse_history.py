@@ -2,7 +2,7 @@ import csv
 from collections import defaultdict
 
 # The path to your downloaded TransLink CSV
-INPUT_FILE = "../data/transit_usage_history_nov.csv"
+INPUT_FILE = "../data/transit_usage_history.csv"
 
 
 def should_include(transaction: str) -> bool:

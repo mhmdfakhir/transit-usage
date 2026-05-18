@@ -3,8 +3,8 @@ import json
 from parse_history import parse_history, count_visits
 
 # Paths
-STOPS_FILE = "../data/stops-1.txt"
-HISTORY_FILE = "../data/transit_usage_history_nov.csv"
+STOPS_FILE = "../data/stops.txt"
+HISTORY_FILE = "../data/transit_usage_history.csv"
 OUTPUT_FILE = "output/stops.json"
 
 
